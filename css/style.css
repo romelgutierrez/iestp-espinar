@@ -1,0 +1,47 @@
+
+[class ^="title"]{
+    color: rgb(3, 3, 3);
+    font-size: 50px;
+    
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px blue;
+
+}
+[class ^= "parrafo"]{
+    color: rgb(255, 255, 255);
+    margin-bottom: 170px;
+    font-size: 20px;
+    background: #38011f;
+    opacity: 0.7;
+    border-radius: 1em;
+
+    
+}
+[class ^="caja"]{
+    width: 100%;
+    height: 400px;
+    background: url(../img/ESPINAR.png);
+    background-size:contain ;
+    
+    background-attachment: fixed;
+}
+.caja-compu{
+    background: url(https://iestpespinar.edu.pe/wp-content/uploads/2020/01/2-Computaci%C3%B3n-e-Inform%C3%A1tica-1536x530.jpg);
+    background-attachment: fixed;
+}
+.caja-meca{
+    background: url(https://iestpespinar.edu.pe/wp-content/uploads/2020/01/3-Mec%C3%A1nica-de-Producci%C3%B3n-1536x530.jpg);
+    background-attachment: fixed;
+}
+.caja-elect{
+    background: url(https://iestpespinar.edu.pe/wp-content/uploads/2020/01/4-Electr%C3%B3nica-Industrial-1536x530.jpg);
+    background-attachment: fixed;
+}
+.caja-produc{
+    background: url(https://iestpespinar.edu.pe/wp-content/uploads/2020/01/6-Producci%C3%B3n-Agropecuaria-1536x530.jpg);
+    background-attachment: fixed;
+}
+.caja-explo{
+    background: url(https://iestpespinar.edu.pe/wp-content/uploads/2020/01/5-Explotaci%C3%B3n-Minera-1536x530.jpg);
+    background-attachment: fixed;
+}
